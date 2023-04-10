@@ -3,15 +3,18 @@
 <html lang="en-US">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
         <a href="photos.html">Photos</a>
         <a href="booking.html">Booking</a>
-        <a href="javascript:void(0);" class="icon" onclick="goToPage()">
+
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()">
             <i class="fa fa-bars"></i>
         </a>
     </div> 
+    <script src="script.js"></script>
 
     <!--HEADER-->
     <head>
@@ -35,6 +38,7 @@
     <!--BODY-->
     <body>
         <h1>Queens Nest Homestay</h1>
+
         <figure>
             <img class="center"
               src="Images/QueensNestLogoSmall.jpg"
@@ -70,3 +74,5 @@
         </footer>
     </body>
 </html>
+
+<script src="script.js"></script>

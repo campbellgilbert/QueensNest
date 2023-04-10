@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <html lang="en-US">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a class="active" href="photos.html">Photos</a>
-        <a href="booking.html">Booking</a>
-        
-        <a href="javascript:void(0);" class="icon" onclick="goToPage()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div> 
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="photos.html">Photos</a>
+      <a href="booking.html">Booking</a>
+      
+      <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
+  </div> 
 
     <!--HEADER-->
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Queens Nest Homestay: Photos</title>
-        <!--css file-->
-        <link 
-            href="style.css" 
-            rel="stylesheet"
-        >
-        
-        <!--font-->
-        <link 
-            href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" 
-            rel="stylesheet"
-        >
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Queens Nest Homestay: Photos</title>
+    <!--css file-->
+    <link 
+      href="style.css" 
+      rel="stylesheet"
+    >
+      
+      <!--font-->
+      <link 
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" 
+        rel="stylesheet"
+      >
+  </head>
 
 
     <!--BODY-->
@@ -223,3 +224,5 @@
     </footer>
     </body>
 </html>
+
+<script src="script.js"></script>

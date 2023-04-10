@@ -3,15 +3,18 @@
 <html lang="en-US">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav">
+
+    <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="photos.html">Photos</a>
-        <a class="active" href="booking.html">Booking</a>
-        <a href="javascript:void(0);" class="icon" onclick="goToPage()">
+        <a href="booking.html" class="active">Booking</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()">
             <i class="fa fa-bars"></i>
         </a>
     </div> 
+
 
     <!--HEADER-->
     <head>
@@ -37,10 +40,15 @@
         <h1>Booking</h1>
         <p>For booking information, please contact the property management at: </p>
         <p>+91 9339-695844<br>
-        +91 6294-068924</p>
+        +91 6294-068924<br>
+        
+        <a href="https://webmail.queensnest.in/">webmail.queensnest.in</a><br>
+        info@queensnest.in
+        </p>
 
 
         <p>
+        Address: <br>
             Queens Nest Homestay <br>
             Lower Hum Busty Ward No-4<br>
             Rangli Rangliot  <br>
@@ -58,3 +66,5 @@
     </footer>
     </body>
 </html>
+
+<script src="script.js"></script>
